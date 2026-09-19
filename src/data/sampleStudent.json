@@ -1,0 +1,19 @@
+{
+  "studentId": "S1023456",
+  "name": "Jordan Avery",
+  "catalogYear": "2022-2023",
+  "courses": [
+    { "id": "c1", "code": "ENGL-101", "title": "Composition I", "credits": 3, "term": "Fall 2022", "grade": "A-", "source": "completed" },
+    { "id": "c2", "code": "MATH-131", "title": "Calculus I", "credits": 4, "term": "Fall 2022", "grade": "B+", "source": "completed", "equivalentCodes": ["MATH-130"] },
+    { "id": "c3", "code": "HIST-151", "title": "Western Civilization", "credits": 3, "term": "Spring 2023", "grade": "B", "source": "completed" },
+    { "id": "c4", "code": "BIOL-101", "title": "Intro Biology", "credits": 4, "term": "Spring 2023", "grade": "A", "source": "completed" },
+    { "id": "c5", "code": "PSY-101", "title": "General Psychology", "credits": 3, "institution": "Grand Valley CC", "term": "Fall 2021", "grade": "A", "source": "transfer", "equivalentCodes": ["PSYC-100"] },
+    { "id": "c6", "code": "ENGL-201", "title": "Composition II", "credits": 3, "institution": "Grand Valley CC", "term": "Spring 2022", "grade": "B", "source": "transfer" },
+    { "id": "c7", "code": "CS-104", "title": "Intro to Programming", "credits": 4, "term": "Fall 2023", "grade": "A", "source": "completed" },
+    { "id": "c8", "code": "CS-214", "title": "Data Structures", "credits": 4, "term": "Spring 2024", "grade": "A-", "source": "completed" },
+    { "id": "c9", "code": "MATH-231", "title": "Calculus II", "credits": 4, "term": "Fall 2023", "grade": "B", "source": "completed" },
+    { "id": "c10", "code": "ART-101", "title": "Intro to Studio Art", "credits": 3, "term": "Fall 2024", "grade": "A", "source": "completed" },
+    { "id": "c11", "code": "PHIL-101", "title": "Intro to Philosophy", "credits": 3, "term": "Spring 2025", "source": "in-progress" },
+    { "id": "c12", "code": "CS-315", "title": "Algorithms", "credits": 4, "term": "Spring 2025", "source": "in-progress" }
+  ]
+}

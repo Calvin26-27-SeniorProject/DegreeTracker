@@ -1,0 +1,145 @@
+{
+  "id": "core-2022-2023",
+  "programName": "Core / General Education",
+  "programType": "core",
+  "catalogYear": "2022-2023",
+  "totalCreditsRequired": 30,
+  "categories": [
+    {
+      "id": "written-communication",
+      "name": "Written Communication",
+      "description": "Foundational composition sequence.",
+      "minCredits": 6,
+      "rules": [
+        {
+          "type": "specificCourses",
+          "description": "Complete both composition courses.",
+          "matchers": [
+            { "codes": ["ENGL-101", "ENG-101"] },
+            { "codes": ["ENGL-201", "ENG-201", "ENGL-102"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quantitative-reasoning",
+      "name": "Quantitative Reasoning",
+      "description": "Demonstrate college-level mathematical reasoning.",
+      "minCredits": 4,
+      "rules": [
+        {
+          "type": "creditThreshold",
+          "description": "At least 4 credits of college-level math.",
+          "minCredits": 4,
+          "matchers": [
+            { "codes": ["MATH-131", "MATH-130", "MATH-121"] },
+            { "codes": ["MATH-231"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "natural-science",
+      "name": "Natural Science",
+      "description": "A laboratory science course.",
+      "minCredits": 4,
+      "rules": [
+        {
+          "type": "creditThreshold",
+          "description": "At least 4 credits of lab science.",
+          "minCredits": 4,
+          "matchers": [
+            { "codes": ["BIOL-101", "BIO-101"] },
+            { "codes": ["CHEM-101"] },
+            { "codes": ["PHYS-101"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "historical-perspectives",
+      "name": "Historical Perspectives",
+      "description": "A course examining history from a broad perspective.",
+      "minCredits": 3,
+      "rules": [
+        {
+          "type": "chooseN",
+          "description": "Choose one historical perspectives course.",
+          "minCourses": 1,
+          "matchers": [
+            { "codes": ["HIST-151"] },
+            { "codes": ["HIST-152"] },
+            { "codes": ["HIST-201"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fine-arts",
+      "name": "Fine Arts",
+      "description": "An introductory fine arts course.",
+      "minCredits": 3,
+      "rules": [
+        {
+          "type": "chooseN",
+          "description": "Choose one fine arts course.",
+          "minCourses": 1,
+          "matchers": [
+            { "codes": ["ART-101"] },
+            { "codes": ["MUS-101"] },
+            { "codes": ["THEA-101"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "philosophical-foundations",
+      "name": "Philosophical Foundations",
+      "description": "An introductory philosophy course.",
+      "minCredits": 3,
+      "rules": [
+        {
+          "type": "specificCourses",
+          "description": "Complete an approved philosophy course.",
+          "matchers": [{ "codes": ["PHIL-101", "PHIL-110"] }]
+        }
+      ]
+    },
+    {
+      "id": "social-behavioral-science",
+      "name": "Social & Behavioral Science",
+      "description": "A course studying human behavior or society.",
+      "minCredits": 3,
+      "rules": [
+        {
+          "type": "chooseN",
+          "description": "Choose one social/behavioral science course.",
+          "minCourses": 1,
+          "matchers": [
+            { "codes": ["PSY-101", "PSYC-100"] },
+            { "codes": ["SOC-101"] },
+            { "codes": ["ECON-101"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "global-cultural",
+      "name": "Global & Cultural Perspectives",
+      "description": "A course examining a culture or region outside the U.S.",
+      "minCredits": 3,
+      "rules": [
+        {
+          "type": "chooseN",
+          "description": "Choose one global/cultural perspectives course.",
+          "minCourses": 1,
+          "matchers": [
+            { "codes": ["GLST-101"] },
+            { "codes": ["ANTH-101"] },
+            { "codes": ["INTL-201"] }
+          ]
+        }
+      ]
+    }
+  ]
+}

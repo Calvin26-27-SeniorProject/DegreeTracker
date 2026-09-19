@@ -1,0 +1,57 @@
+{
+  "id": "cs-major-2022-2023",
+  "programName": "Computer Science, B.S.",
+  "programType": "major",
+  "catalogYear": "2022-2023",
+  "totalCreditsRequired": 20,
+  "categories": [
+    {
+      "id": "cs-core",
+      "name": "Core Computer Science Courses",
+      "description": "Foundational courses required of all CS majors.",
+      "minCredits": 12,
+      "rules": [
+        {
+          "type": "specificCourses",
+          "description": "Complete the core programming sequence.",
+          "matchers": [
+            { "codes": ["CS-104", "CS-100"] },
+            { "codes": ["CS-214", "CS-210"] },
+            { "codes": ["CS-315", "CS-310"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cs-math",
+      "name": "Supporting Mathematics",
+      "description": "Calculus sequence required to support the CS curriculum.",
+      "minCredits": 8,
+      "rules": [
+        {
+          "type": "specificCourses",
+          "description": "Complete Calculus I and II.",
+          "matchers": [{ "codes": ["MATH-131", "MATH-130"] }, { "codes": ["MATH-231"] }]
+        }
+      ]
+    },
+    {
+      "id": "cs-electives",
+      "name": "Upper-Level Electives",
+      "description": "Advanced electives rounding out the major.",
+      "minCredits": 4,
+      "rules": [
+        {
+          "type": "chooseN",
+          "description": "Choose at least one 300+ level elective.",
+          "minCourses": 1,
+          "matchers": [
+            { "codes": ["CS-330"] },
+            { "codes": ["CS-340"] },
+            { "codes": ["CS-350"] }
+          ]
+        }
+      ]
+    }
+  ]
+}
